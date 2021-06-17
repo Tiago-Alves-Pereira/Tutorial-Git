@@ -36,9 +36,8 @@ Esse `add` é necessário antes de darmos o commit
 
 ## Interfaces Git
 
-Beleza, recebemos a confirmação de que o commit aconteceu, mas isso tá um pouco abstrato ainda né?
+Ok, recebemos a confirmação de que o commit aconteceu, mas isso tá um pouco abstrato ainda né?
 Existem algumas [interfaces legais do git](https://git-scm.com/downloads/guis) que você pode fazer o download para poder visualizar de fato como está o projeto, o que foi alterado em cada commit, quando foi alterado etc.
-Aqui eu vou mostrar pra vocês a usarem direto no Github.
 
 ## Repositório no Github
 
@@ -48,19 +47,17 @@ Você vai preencher com as informações do projeto, então dar o nome do reposi
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828773067915274/unknown.png">
 
-Logo depois vai aparecer essa página um pouco cinza e confusa e com vários comandos (pode até perceber que alguns deles jpa usamos), mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
+Logo depois vai aparecer essa página um pouco cinza e confusa e com vários comandos (pode até perceber que alguns deles já usamos), mas o que você tem que fazer é bem simples, apenas copie o link que aparecer para você
 
 <img src="https://media.discordapp.net/attachments/831974152667398214/836828905859186708/unknown.png?width=1440&height=141">
 
-Lembra do conceito de `remote` que eu expliquei pra vocês no último vídeo? Nós iremos utilizá-lo agora
-
 * Para passar o commit do meu repositório local (da minha máquina) para um repositório na plataforma do Github, usamos o `git remote add origin <link do repositório>`
 
-* `origin` é o nome utilizado para referenciar o nosso repositório
+* `origin` é o nome utilizado para referenciar o nosso repositório, pode ser mudado para qualquer nome que quiser
 
 Agora já temos o nosso repositório local conectado com o respositório do Github, porém o `commit` que damos na máquina não sobe automaticamente para a plataforma
 
-* Para isso precisaremos empurrar, enviar para lá com o `git push -u origin main`
+* Para isso precisaremos 'empurrar', enviar para lá com o `git push -u origin main`
 
 Agora se recarregarmos a página iremos ver o nosso arquivo aqui na plataforma!
 
